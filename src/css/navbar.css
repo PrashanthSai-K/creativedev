@@ -1,0 +1,44 @@
+.navbar{
+    /* padding:10px; */
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: larger;
+    font-family: 'Quicksand';
+}
+
+.heading{
+    font-size:xx-large;
+    font-weight:900 ;
+    transition: all ease-in-out 0.5s;
+    padding-left: 20px;
+}
+
+.heading:hover{
+    text-shadow: #D84F72 1px 0 10px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navbar > ul {
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+.navbar > ul >a{
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+.navbar > ul >a:hover{
+    text-shadow: #D84F72 1px 0 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}

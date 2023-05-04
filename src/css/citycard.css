@@ -1,0 +1,48 @@
+
+
+.card-main-container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Quicksand';
+    gap: 5%;
+}
+.overall-card:hover{
+    background-color: #D84F72;
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+.overall-card{
+    height: 60%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+}
+.card-image{
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-end-end-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.unorder-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.list-items{
+    padding-top: 2%;
+    cursor: pointer;
+}
